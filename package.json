@@ -1,0 +1,36 @@
+{
+  "name": "dark-bash",
+  "displayName": "Dark Bash",
+  "description": "Dark Theme",
+  "version": "0.0.2",
+  "publisher": "NicScott",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "shell",
+    "dark",
+    "bash",
+    "bourne",
+    "zsh"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Bash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Bash-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nlscott/Dark-Bash"
+  },
+  "homepage": "https://github.com/nlscott/Dark-Bash"
+}
